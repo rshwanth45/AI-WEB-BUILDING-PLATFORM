@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weird News</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f9f9f9;
+    }
+
+    header {
+      background: #333;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    nav {
+      background: #444;
+      color: white;
+      padding: 0.5rem 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    .intro {
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    .section {
+      margin: 2rem 0;
+    }
+
+    .section h2 {
+      background: #333;
+      color: white;
+      margin: 0;
+      padding: 0.5rem;
+    }
+
+    .section-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .article {
+      margin: 0.5rem;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      background: white;
+      width: 45%;
+    }
+
+    .article h3 {
+      margin-top: 0;
+    }
+
+    .article p {
+      margin-bottom: 0;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        width: 100%;
+        padding: 0 1rem;
+      }
+
+      .article {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Weird News</h1>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#featured">Featured</a>
+    <a href="#latest">Latest</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="container">
+    <section id="home" class="intro">
+      <h2>Welcome to Weird News</h2>
+      <p>Discover the strangest and most bizarre news stories from around the world.</p>
+    </section>
+    <section id="featured" class="section">
+      <h2>Featured Weird News</h2>
+      <div class="section-content">
+        <div class="article">
+          <h3>Man Marries Robot</h3>
+          <p>A man in Japan recently married a hologram of a virtual reality singer named Hatsune Miku.</p>
+        </div>
+        <div class="article">
+          <h3>Aliens Spotted in Kansas</h3>
+          <p>Residents of a small town claim to have seen extraterrestrial beings in a local cornfield.</p>
+        </div>
+      </div>
+    </section>
+    <section id="latest" class="section">
+      <h2>Latest Weird News</h2>
+      <div class="section-content">
+        <div class="article">
+          <h3>World's Largest Rubber Duck Goes Missing</h3>
+          <p>A giant inflatable rubber duck, measuring 50 feet tall, disappeared from a harbor in Canada.</p>
+        </div>
+        <div class="article">
+          <h3>Grandma Knits Sweaters for Trees</h3>
+          <p>An elderly woman in Sweden knitted sweaters for trees to keep them warm during the winter.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2024 Weird News. All rights reserved.</p>
+  </footer>
+</body>
+</html>

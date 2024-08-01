@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GrapesJS Blocks Example</title>
+  <!-- Linking GrapesJS CSS -->
+  <link href="https://unpkg.com/grapesjs/dist/css/grapes.min.css" rel="stylesheet">
+  <!-- Linking GrapesJS JS -->
+  <script src="https://unpkg.com/grapesjs"></script>
+  <style>
+    /* Custom CSS to position blocks panel vertically to the left */
+    .gjs-blocks-c {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    /* Style for the input container */
+    #input-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 10px;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+    #input-container textarea {
+      width: 100%;
+      height: 100px;
+      margin-bottom: 10px;
+      resize: none;
+      padding: 5px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+    }
+    #input-container button {
+      padding: 5px 10px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <!-- GrapesJS editor container -->
+  <div id="gjs" style="height: 500px; border: 1px solid #ccc;"></div>
+
+  <!-- Input container for user text -->
+  <div id="input-container">
+    <textarea id="user-input" placeholder="Enter text here..."></textarea>
+    <button id="submit-btn">Submit</button>
+  </div>
+
+  <script>
+    // Initialize GrapesJS
+    const editor = grapesjs.init({
+      // Container where GrapesJS will be injected
+      container: '#gjs',
+
+      // Default components
+      components: '',
+
+      // Style of components
+      style: '',
+
+      // Storage manager
+      storageManager: false,
+
+      // Block Manager
+      blockManager: {
+        blocks: [
+          {
+            id: 'button-block',
+            label: 'Button',
+            content: '<button>Click Me</button>',
+          },
+          {
+            id: 'label-block',
+            label: 'Label',
+            content: '<label>Label</label>',
+          },
+          {
+            id: 'text-block',
+            label: 'Text',
+            content: '<p>Text goes here</p>',
+          }
+          ,
+          {
+            id: 'image-block',
+            label: 'Image',
+            content: '<img src="https://via.placeholder.com/150" alt="Placeholder Image">',
+          },
+          {
+            id: 'link-block',
+            label: 'Link',
+            content: '<a href="#">Link</a>',
+          },
+          {
+            id: 'header-block',
+            label: 'Header',
+            content: '<h1>Header</h1>',
+          },
+          {
+            id: 'footer-block',
+            label: 'Footer',
+            content: '<footer>Footer content here</footer>',
+          },
+          {
+            id: 'list-block',
+            label: 'List',
+            content: '<ul><li>List Item 1</li><li>List Item 2</li><li>List Item 3</li></ul>',
+          },
+          {
+            id: 'table-block',
+            label: 'Table',
+            content: '<table><tr><th>Header 1</th><th>Header 2</th></tr><tr><td>Data 1</td><td>Data 2</td></tr></table>',
+          },
+          {
+            id: 'form-block',
+            label: 'Form',
+            content: '<form><input type="text" placeholder="Enter text"><input type="submit" value="Submit"></form>',
+          },
+          // Templates will be dynamically loaded
+        ]
+      },
+      autorender: false
+    });
+    editor.render();
+
+    // Event listener for the submit button
+    document.getElementById('submit-btn').addEventListener('click', () => {
+      const userInput = document.getElementById('user-input').value.trim();
+
+      // Send the input to the Flask backend
+      fetch('/predict', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ text: userInput }),
+      })
+      .then(response => response.json())
+      .then(data => {
+        const htmlContent = data.html;
+        editor.DomComponents.clear(); // Clear existing components
+        editor.setComponents(htmlContent); // Set new components
+      })
+      .catch(error => console.error('Error:', error));
+    });
+  </script>
+</body>
+</html>

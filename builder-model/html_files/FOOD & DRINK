@@ -1,0 +1,31 @@
+<header>
+    <!-- Logo and Navigation -->
+    <nav>
+        <!-- Navigation Links -->
+    </nav>
+    <div class="hero">
+        <!-- Hero Section Content -->
+    </div>
+</header>
+
+<main>
+    <section id="about">
+        <!-- About Us Section Content -->
+    </section>
+    <section id="recipes">
+        <!-- Recipes Section Content -->
+    </section>
+    <section id="blog">
+        <!-- Blog Section Content -->
+    </section>
+    <section id="gallery">
+        <!-- Gallery Section Content -->
+    </section>
+    <section id="contact">
+        <!-- Contact Section Content -->
+    </section>
+</main>
+
+<footer>
+    <!-- Footer Content -->
+</footer>

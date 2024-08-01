@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entertainment Website</title>
+  <style>
+    /* Basic styling for demonstration */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      text-align: center;
+      padding: 5px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+      padding: 20px 0;
+    }
+    .main {
+      float: left;
+      width: 70%;
+    }
+    .sidebar {
+      float: left;
+      width: 30%;
+      background: #f0f0f0;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      clear: both;
+    }
+    .footer p {
+      margin: 0;
+    }
+    .featured {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .featured img {
+      width: 45%;
+      height: auto;
+    }
+    .featured .description {
+      width: 50%;
+      padding: 0 20px;
+    }
+    .news {
+      margin-top: 20px;
+    }
+    .news article {
+      margin-bottom: 10px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Entertainment Hub</h1>
+    <p>Your source for all things entertainment</p>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Movies</a>
+    <a href="#">Music</a>
+    <a href="#">Games</a>
+    <a href="#">Events</a>
+    <a href="#">Contact</a>
+  </nav>
+  <div class="container">
+    <section class="main">
+      <div class="featured">
+        <img src="https://via.placeholder.com/400x250" alt="Featured Image">
+        <div class="description">
+          <h2>Featured Movie: Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum, nisl a posuere vehicula, ligula lacus ultricies nisi, sit amet accumsan arcu justo non risus. Donec rhoncus fringilla dui, in euismod felis iaculis ac.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="news">
+        <h2>Latest News</h2>
+        <article>
+          <h3>Music Album Release</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum, nisl a posuere vehicula, ligula lacus ultricies nisi, sit amet accumsan arcu justo non risus.</p>
+        </article>
+        <article>
+          <h3>New Game Launch</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum, nisl a posuere vehicula, ligula lacus ultricies nisi, sit amet accumsan arcu justo non risus.</p>
+        </article>
+      </div>
+    </section>
+    <aside class="sidebar">
+      <h3>Top Downloads</h3>
+      <ul>
+        <li><a href="#">Top Movie Downloads</a></li>
+        <li><a href="#">Top Music Downloads</a></li>
+        <li><a href="#">Top Game Downloads</a></li>
+      </ul>
+      <h3>Upcoming Events</h3>
+      <ul>
+        <li><a href="#">Concerts</a></li>
+        <li><a href="#">Movie Premieres</a></li>
+        <li><a href="#">Gaming Tournaments</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer class="footer">
+    <p>Contact: contact@entertainmenthub.com | Phone: 123-456-7890</p>
+    <p>&copy; 2024 Entertainment Hub. All rights reserved.</p>
+  </footer>
+</body>
+</html>

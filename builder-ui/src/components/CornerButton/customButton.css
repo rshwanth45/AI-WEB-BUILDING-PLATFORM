@@ -1,0 +1,28 @@
+.pebble-button {
+  z-index: 5;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4caf50; /* Change the background color as needed */
+  border: none;
+  border-radius: 50%; /* Make it a pebble shape */
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* Text color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+}
+
+.pebble-button:hover {
+  background-color: #45a049; /* Change the background color on hover */
+}
+
+.code,
+.design {
+  width: 30px;
+  height: 30px;
+  fill: white;
+}

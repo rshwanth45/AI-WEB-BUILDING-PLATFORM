@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Portfolio", "image": "portfolio.jpg" },
+  { "id": 2, "name": "Blog", "image": "blog.jpg" },
+  { "id": 3, "name": "Agency", "image": "agency.jpg" },
+  { "id": 4, "name": "E-commerce", "image": "ecommerce.jpg" },
+  { "id": 5, "name": "Landing Page", "image": "landing.jpg" },
+  { "id": 6, "name": "Business", "image": "business.jpg" },
+  { "id": 7, "name": "Events", "image": "events.jpg" },
+  { "id": 8, "name": "Restaurant", "image": "restaurant.jpg" },
+  { "id": 9, "name": "Travel", "image": "travel.jpg" },
+  { "id": 10, "name": "Fitness", "image": "fitness.jpg" }
+]

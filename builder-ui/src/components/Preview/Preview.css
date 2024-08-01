@@ -1,0 +1,43 @@
+.icon-link {
+  position: relative;
+  display: inline-block;
+}
+
+.icon-container {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.icon-container:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  color: white;
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.icon-name {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 14px;
+  white-space: nowrap;
+  transition: opacity 0.3s ease, left 0.3s ease;
+}
+
+.icon-container:hover .icon-name {
+  opacity: 1;
+  left: calc(100% + 8px);
+}

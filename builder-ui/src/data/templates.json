@@ -1,0 +1,505 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "portfolio.jpg",
+    "heading": "Vibrant Portfolio",
+    "info": "Showcase your work with this vibrant and modern portfolio template. Perfect for creatives and professionals alike.",
+    "category": "Portfolio",
+    "subFolder": "default",
+    "HTML": "<section><h1>Welcome to My Portfolio</h1><p>This is a vibrant and modern portfolio template...</p></section>",
+    "CSS": "body { font-family: 'Roboto', sans-serif; background-color: #f5f5f5; } /* Add more styles here */",
+    "JS": "document.addEventListener('DOMContentLoaded', function() { console.log('Script loaded!'); });"
+  },
+  {
+    "id": 2,
+    "imageUrl": "blog.jpg",
+    "heading": "Elegant Blog",
+    "info": "Create an elegant and sophisticated blog with this template. Engage your readers with beautiful typography and layout.",
+    "category": "Blog",
+    "subFolder": "default",
+    "HTML": "<article><h1>Welcome to My Blog</h1><p>Start writing your first post...</p></article>",
+    "CSS": "body { font-family: 'Montserrat', sans-serif; background-color: #ffffff; } /* Add more styles here */",
+    "JS": "document.addEventListener('DOMContentLoaded', function() { console.log('Script loaded!'); });"
+  },
+  {
+    "id": 3,
+    "imageUrl": "agency.jpg",
+    "heading": "Creative Agency",
+    "subFolder": "default",
+    "info": "Power your agency website with this creative and dynamic template. Impress clients with sleek animations and interactive elements.",
+    "category": "Agency",
+    "HTML": "<section><h1>Welcome to Our Agency</h1><p>Explore our services and projects...</p></section>",
+    "CSS": "body { font-family: 'Open Sans', sans-serif; background-color: #f9f9f9; } /* Add more styles here */",
+    "JS": "document.addEventListener('DOMContentLoaded', function() { console.log('Script loaded!'); });"
+  },
+  {
+    "id": 4,
+    "imageUrl": "ecommerce.jpg",
+    "heading": "Modern E-commerce",
+    "subFolder": "default",
+    "info": "Launch your online store with this modern e-commerce template. Optimize conversions with intuitive design and smooth user experience.",
+    "category": "E-commerce",
+    "HTML": "<section><h1>Welcome to Our Online Store</h1><p>Discover our latest products and offers...</p></section>",
+    "CSS": "body { font-family: 'Poppins', sans-serif; background-color: #fafafa; } /* Add more styles here */",
+    "JS": "document.addEventListener('DOMContentLoaded', function() { console.log('Script loaded!'); });"
+  },
+  {
+    "id": 5,
+    "imageUrl": "landing.jpg",
+    "heading": "Sleek Landing Page",
+    "subFolder": "default",
+    "info": "Capture leads with this sleek and modern landing page template. Impress visitors with clean design and compelling call-to-actions.",
+    "category": "Landing Page",
+    "HTML": "<section><h1>Welcome to Our Landing Page</h1><p>Learn more about our product and services...</p></section>",
+    "CSS": "body { font-family: 'Roboto', sans-serif; background-color: #f0f0f0; } /* Add more styles here */",
+    "JS": "document.addEventListener('DOMContentLoaded', function() { console.log('Script loaded!'); });"
+  },
+  {
+    "id": 6,
+    "imageUrl": "portfolio.jpg",
+    "heading": "Minimalist Portfolio",
+    "subFolder": "default",
+    "info": "Display your work with elegance and simplicity using this minimalist portfolio template. Perfect for showcasing your creativity.",
+    "category": "Portfolio",
+    "HTML": "<section><h1>Welcome to My Portfolio</h1><p>Showcase your creative work...</p></section>",
+    "CSS": "body { font-family: 'Montserrat', sans-serif; background-color: #ffffff; } /* Add more styles here */",
+    "JS": "document.addEventListener('DOMContentLoaded', function() { console.log('Script loaded!'); });"
+  },
+  {
+    "id": 7,
+    "imageUrl": "blog.jpg",
+    "heading": "Artistic Blog",
+    "subFolder": "default",
+    "info": "Express your ideas and stories with this artistic and visually appealing blog template. Engage readers with stunning visuals and content.",
+    "category": "Blog",
+    "HTML": "<article><h1>Welcome to My Blog</h1><p>Start writing your next masterpiece...</p></article>",
+    "CSS": "body { font-family: 'Open Sans', sans-serif; background-color: #f9f9f9; } /* Add more styles here */",
+    "JS": "document.addEventListener('DOMContentLoaded', function() { console.log('Script loaded!'); });"
+  },
+  {
+    "id": 8,
+    "imageUrl": "business.jpg",
+    "heading": "Corporate Business",
+    "subFolder": "default",
+    "info": "Build a professional online presence for your corporate business. Enhance credibility with a clean design and informative layout.",
+    "category": "Business",
+    "HTML": "<section><h1>Welcome to Our Business Website</h1><p>Explore our services and achievements...</p></section>",
+    "CSS": "body { font-family: 'Poppins', sans-serif; background-color: #fafafa; } /* Add more styles here */",
+    "JS": "document.addEventListener('DOMContentLoaded', function() { console.log('Script loaded!'); });"
+  },
+  {
+    "id": 9,
+    "imageUrl": "ecommerce.jpg",
+    "heading": "Fashion Store",
+    "subFolder": "default",
+    "info": "Create a stylish and trendy online fashion store. Highlight products with a chic design and seamless shopping experience.",
+    "category": "E-commerce",
+    "HTML": "<section><h1>Welcome to Our Fashion Store</h1><p>Discover the latest fashion trends...</p></section>",
+    "CSS": "body { font-family: 'Roboto', sans-serif; background-color: #f0f0f0; } /* Add more styles here */",
+    "JS": "document.addEventListener('DOMContentLoaded', function() { console.log('Script loaded!'); });"
+  },
+  {
+    "id": 10,
+    "imageUrl": "agency.jpg",
+    "heading": "Creative Agency",
+    "subFolder": "default",
+    "info": "Empower your agency with this creative and dynamic template. Engage clients with innovative design and interactive elements.",
+    "category": "Agency",
+    "HTML": "<section><h1>Welcome to Our Creative Agency</h1><p>Explore our creative solutions...</p></section>",
+    "CSS": "body { font-family: 'Montserrat', sans-serif; background-color: #ffffff; } /* Add more styles here */",
+    "JS": "document.addEventListener('DOMContentLoaded', function() { console.log('Script loaded!'); });"
+  },
+  {
+    "id": 11,
+    "imageUrl": "landing.jpg",
+    "heading": "Startup Landing Page",
+    "subFolder": "default",
+    "info": "Launch your startup with a compelling landing page. Convert visitors with a sleek design and effective call-to-actions.",
+    "category": "Landing Page",
+    "HTML": "<section><h1>Welcome to Our Startup Landing Page</h1><p>Discover our startup story and offerings...</p></section>",
+    "CSS": "body { font-family: 'Open Sans', sans-serif; background-color: #f9f9f9; } /* Add more styles here */",
+    "JS": "document.addEventListener('DOMContentLoaded', function() { console.log('Script loaded!'); });"
+  },
+  {
+    "id": 12,
+    "imageUrl": "portfolio.jpg",
+    "heading": "Modern Portfolio",
+    "subFolder": "default",
+    "info": "Showcase your portfolio with this modern and sleek template. Impress visitors with clean design and user-friendly navigation.",
+    "category": "Portfolio",
+    "HTML": "<section><h1>Welcome to My Modern Portfolio</h1><p>Showcase your portfolio with style...</p></section>",
+    "CSS": "body { font-family: 'Poppins', sans-serif; background-color: #fafafa; } /* Add more styles here */",
+    "JS": "document.addEventListener('DOMContentLoaded', function() { console.log('Script loaded!'); });"
+  },
+  {
+    "id": 13,
+    "imageUrl": "blog.jpg",
+    "heading": "Travel Blog",
+    "subFolder": "default",
+    "info": "Share your travel experiences with this captivating blog template. Inspire readers with stunning visuals and engaging content.",
+    "category": "Blog",
+    "HTML": "<article><h1>Welcome to My Travel Blog</h1><p>Explore exciting travel stories...</p></article>",
+    "CSS": "body { font-family: 'Roboto', sans-serif; background-color: #f0f0f0; } /* Add more styles here */",
+    "JS": "document.addEventListener('DOMContentLoaded', function() { console.log('Script loaded!'); });"
+  },
+  {
+    "id": 14,
+    "imageUrl": "portfolio.jpg",
+    "heading": "Creative Portfolio",
+    "subFolder": "default",
+    "info": "A stunning portfolio template to showcase your work. Ideal for photographers and designers.",
+    "category": "Portfolio"
+  },
+  {
+    "id": 15,
+    "imageUrl": "business.jpg",
+    "heading": "Business Landing Page",
+    "subFolder": "default",
+    "info": "A professional landing page for your business. Perfect for startups and small businesses.",
+    "category": "Business"
+  },
+  {
+    "id": 16,
+    "imageUrl": "ecommerce.jpg",
+    "heading": "E-commerce Store",
+    "subFolder": "default",
+    "info": "An elegant template for your online store. Features product galleries and shopping cart.",
+    "category": "E-commerce"
+  },
+  {
+    "id": 17,
+    "subFolder": "default",
+    "imageUrl": "blog.jpg",
+    "heading": "Personal Blog",
+    "info": "A clean and modern template for personal blogs. Ideal for bloggers and writers.",
+    "category": "Blog"
+  },
+  {
+    "id": 18,
+    "imageUrl": "events.jpg",
+    "subFolder": "default",
+    "heading": "Event Management",
+    "info": "An attractive template for event management companies. Includes event schedules and booking forms.",
+    "category": "Events"
+  },
+  {
+    "id": 19,
+    "imageUrl": "restaurant.jpg",
+    "heading": "Restaurant Website",
+    "subFolder": "default",
+    "info": "A delicious template for restaurants and cafes. Features menu displays and reservation forms.",
+    "category": "Restaurant"
+  },
+  {
+    "id": 20,
+    "imageUrl": "travel.jpg",
+    "heading": "Travel Agency",
+    "subFolder": "default",
+    "info": "A beautiful template for travel agencies. Highlights travel packages and booking options.",
+    "category": "Travel"
+  },
+  {
+    "id": 21,
+    "imageUrl": "fitness.jpg",
+    "subFolder": "default",
+    "heading": "Fitness Club",
+    "info": "A dynamic template for gyms and fitness clubs. Includes class schedules and membership details.",
+    "category": "Fitness"
+  },
+  {
+    "id": 22,
+    "imageUrl": "portfolio.jpg",
+    "heading": "Creative Portfolio",
+    "subFolder": "default",
+    "info": "Showcase your creative work with this stunning portfolio template. Perfect for photographers.",
+    "category": "Portfolio"
+  },
+  {
+    "id": 23,
+    "imageUrl": "business.jpg",
+    "heading": "Corporate Site",
+    "subFolder": "default",
+    "info": "A sleek and professional template for corporate websites. Ideal for businesses and enterprises.",
+    "category": "Business"
+  },
+  {
+    "id": 24,
+    "imageUrl": "ecommerce.jpg",
+    "heading": "Online Boutique",
+    "subFolder": "default",
+    "info": "A chic template for your online boutique. Features product showcases and shopping cart integration.",
+    "category": "E-commerce"
+  },
+  {
+    "id": 25,
+    "imageUrl": "blog.jpg",
+    "heading": "Tech Blog",
+    "subFolder": "default",
+    "info": "A modern template for tech bloggers. Ideal for sharing news, reviews, and tutorials.",
+    "category": "Blog"
+  },
+  {
+    "id": 26,
+    "imageUrl": "events.jpg",
+    "subFolder": "default",
+    "heading": "Conference Page",
+    "info": "An engaging template for conferences and events. Includes speaker bios and session details.",
+    "category": "Events"
+  },
+  {
+    "id": 27,
+    "imageUrl": "restaurant.jpg",
+    "heading": "Cafe Website",
+    "subFolder": "default",
+    "info": "A delightful template for cafes and bakeries. Showcases menus and allows online reservations.",
+    "category": "Restaurant"
+  },
+  {
+    "id": 28,
+    "imageUrl": "travel.jpg",
+    "heading": "Tourism Website",
+    "subFolder": "default",
+    "info": "An eye-catching template for tourism and travel agencies. Highlights destinations and travel deals.",
+    "category": "Travel"
+  },
+  {
+    "id": 29,
+    "imageUrl": "fitness.jpg",
+    "subFolder": "default",
+    "heading": "Yoga Studio",
+    "info": "A serene template for yoga studios. Includes class schedules and booking forms.",
+    "category": "Fitness"
+  },
+  {
+    "id": 30,
+    "imageUrl": "portfolio.jpg",
+    "heading": "Art Portfolio",
+    "subFolder": "default",
+    "info": "Show your artwork with this beautiful portfolio template. Great for artists and illustrators.",
+    "category": "Portfolio"
+  },
+  {
+    "id": 31,
+    "imageUrl": "business.jpg",
+    "heading": "Consulting Firm",
+    "subFolder": "default",
+    "info": "A professional template for consulting firms. Ideal for showcasing services and case studies.",
+    "category": "Business"
+  },
+  {
+    "id": 32,
+    "imageUrl": "ecommerce.jpg",
+    "heading": "Fashion Store",
+    "subFolder": "default",
+    "info": "A stylish template for fashion stores. Features product galleries and easy checkout options.",
+    "category": "E-commerce"
+  },
+  {
+    "id": 33,
+    "imageUrl": "blog.jpg",
+    "subFolder": "default",
+    "heading": "Lifestyle Blog",
+    "info": "A vibrant template for lifestyle blogs. Perfect for sharing tips, stories, and inspirations.",
+    "category": "Blog"
+  },
+  {
+    "id": 33,
+    "subFolder": "default",
+    "imageUrl": "events.jpg",
+    "heading": "Music Festival",
+    "info": "An exciting template for music festivals. Includes lineup details and ticket purchasing.",
+    "category": "Events"
+  },
+  {
+    "id": 34,
+    "imageUrl": "restaurant.jpg",
+    "subFolder": "default",
+    "heading": "Gourmet Restaurant",
+    "info": "A sophisticated template for gourmet restaurants. Showcases menus and allows table bookings.",
+    "category": "Restaurant"
+  },
+  {
+    "id": 35,
+    "imageUrl": "travel.jpg",
+    "heading": "Adventure Travel",
+    "subFolder": "default",
+    "info": "An adventurous template for travel agencies. Highlights tours and travel packages.",
+    "category": "Travel"
+  },
+  {
+    "id": 36,
+    "imageUrl": "fitness.jpg",
+    "subFolder": "default",
+    "heading": "Health Club",
+    "info": "A robust template for health clubs and gyms. Includes membership plans and class schedules.",
+    "category": "Fitness"
+  },
+  {
+    "id": 37,
+    "imageUrl": "portfolio.jpg",
+    "subFolder": "default",
+    "heading": "Photographer's Portfolio",
+    "info": "A beautiful portfolio template for photographers. Showcases photo galleries and projects.",
+    "category": "Portfolio"
+  },
+  {
+    "id": 38,
+    "imageUrl": "business.jpg",
+    "subFolder": "default",
+    "heading": "Tech Startup",
+    "info": "A sleek and modern template for tech startups. Perfect for showcasing products and services.",
+    "category": "Business"
+  },
+  {
+    "id": 39,
+    "imageUrl": "ecommerce.jpg",
+    "heading": "Handmade Crafts Store",
+    "subFolder": "default",
+    "info": "A charming template for handmade crafts stores. Features product showcases and easy checkout.",
+    "category": "E-commerce"
+  },
+  {
+    "id": 40,
+    "imageUrl": "blog.jpg",
+    "heading": "Food Blog",
+    "subFolder": "default",
+    "info": "A delicious template for food bloggers. Ideal for sharing recipes, reviews, and cooking tips.",
+    "category": "Blog"
+  },
+  {
+    "id": 41,
+    "imageUrl": "events.jpg",
+    "subFolder": "default",
+    "heading": "Corporate Event",
+    "info": "A polished template for corporate events. Includes event schedules and registration forms.",
+    "category": "Events"
+  },
+  {
+    "id": 42,
+    "imageUrl": "restaurant.jpg",
+    "subFolder": "default",
+    "heading": "Fine Dining",
+    "info": "An elegant template for fine dining restaurants. Showcases menus and allows table reservations.",
+    "category": "Restaurant"
+  },
+  {
+    "id": 43,
+    "imageUrl": "travel.jpg",
+    "heading": "Luxury Travel",
+    "subFolder": "default",
+    "info": "A luxurious template for travel agencies. Highlights premium travel packages and destinations.",
+    "category": "Travel"
+  },
+  {
+    "id": 44,
+    "imageUrl": "fitness.jpg",
+    "subFolder": "default",
+    "heading": "CrossFit Gym",
+    "info": "An energetic template for CrossFit gyms. Includes workout schedules and membership details.",
+    "category": "Fitness"
+  },
+  {
+    "id": 45,
+    "imageUrl": "portfolio.jpg",
+    "subFolder": "default",
+    "heading": "Freelance Portfolio",
+    "info": "A professional portfolio template for freelancers. Ideal for showcasing projects and skills.",
+    "category": "Portfolio"
+  },
+  {
+    "id": 46,
+    "imageUrl": "business.jpg",
+    "heading": "Financial Services",
+    "subFolder": "default",
+    "info": "A sophisticated template for financial services. Perfect for showcasing services and expertise.",
+    "category": "Business"
+  },
+  {
+    "id": 47,
+    "imageUrl": "ecommerce.jpg",
+    "heading": "Home Decor Store",
+    "subFolder": "default",
+    "info": "A stylish template for home decor stores. Features product galleries and easy checkout.",
+    "category": "E-commerce"
+  },
+  {
+    "id": 48,
+    "imageUrl": "blog.jpg",
+    "heading": "Travel Blog",
+    "subFolder": "default",
+    "info": "An inspiring template for travel bloggers. Ideal for sharing travel stories and tips.",
+    "category": "Blog"
+  },
+  {
+    "id": 49,
+    "imageUrl": "blog.jpg",
+    "subFolder": "affiliates",
+    "heading": "Affiliates Blog",
+    "info": "An inspiring template for travel bloggers. Ideal for sharing travel stories and tips.",
+    "category": "Blog"
+  },
+  {
+    "id": 50,
+    "imageUrl": "blog.jpg",
+    "subFolder": "bizNews",
+    "heading": "Biz News Blog",
+    "info": "An inspiring template for travel bloggers. Ideal for sharing travel stories and tips.",
+    "category": "Blog"
+  },
+  {
+    "id": 51,
+    "imageUrl": "blog.jpg",
+    "subFolder": "bloscot",
+    "heading": "Bloscot Blog",
+    "info": "An inspiring template for travel bloggers. Ideal for sharing travel stories and tips.",
+    "category": "Blog"
+  },
+  {
+    "id": 52,
+    "imageUrl": "blog.jpg",
+    "subFolder": "dartBlog",
+    "heading": "Dart Blog",
+    "info": "An inspiring template for travel bloggers. Ideal for sharing travel stories and tips.",
+    "category": "Blog"
+  },
+  {
+    "id": 53,
+    "imageUrl": "blog.jpg",
+    "subFolder": "dicetTv",
+    "heading": "Dice TV Blog",
+    "info": "An inspiring template for travel bloggers. Ideal for sharing travel stories and tips.",
+    "category": "Blog"
+  },
+  {
+    "id": 54,
+    "imageUrl": "agency.jpg",
+    "subFolder": "ads",
+    "heading": "ADS Agency",
+    "info": "Empower your agency with this creative and dynamic template. Engage clients with innovative design and interactive elements.",
+    "category": "Agency"
+  },
+  {
+    "id": 55,
+    "imageUrl": "agency.jpg",
+    "subFolder": "heado",
+    "heading": "Heado Agency",
+    "info": "Empower your agency with this creative and dynamic template. Engage clients with innovative design and interactive elements.",
+    "category": "Agency"
+  },
+  {
+    "id": 54,
+    "imageUrl": "agency.jpg",
+    "subFolder": "ohk",
+    "heading": "OHK Agency",
+    "info": "Empower your agency with this creative and dynamic template. Engage clients with innovative design and interactive elements.",
+    "category": "Agency"
+  },
+  {
+    "id": 54,
+    "imageUrl": "agency.jpg",
+    "subFolder": "talenttalk",
+    "heading": "Talent Talk Agency",
+    "info": "Empower your agency with this creative and dynamic template. Engage clients with innovative design and interactive elements.",
+    "category": "Agency"
+  }
+]

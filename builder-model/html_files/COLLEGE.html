@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0056b3;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #004080;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #003366;
+        }
+        .container {
+            padding: 20px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .section {
+            background-color: #fff;
+            margin: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            flex: 1 1 calc(48% - 40px);
+            box-sizing: border-box;
+        }
+        footer {
+            background-color: #0056b3;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our College</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#academics">Academics</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <div class="section" id="home">
+                <h2>Home</h2>
+                <p>Welcome to our prestigious college. We offer a vibrant campus life and top-notch education.</p>
+                <a href="https://www.griet.ac.in/">griet</a>
+            </div>
+            <div class="section" id="about">
+                <h2>About Us</h2>
+                <p>Learn about our history, mission, and the values that drive us. Meet our dedicated faculty and staff.</p>
+                <a href="https://sefet.in/about-griet.html#:~:text=GRIET%20is%20a%20premier%20institute,has%20been%20given%20autonomous%20status.">griet</a>
+            </div>
+            <div class="section" id="academics">
+                <h2>Academics</h2>
+                <p>Explore our diverse academic programs, faculties, and research opportunities. Find out about our curriculum and resources.</p>
+                <a href="https://www.griet.ac.in/programmes.php">griet</a>
+            </div>
+            <div class="section" id="admissions">
+                <h2>Admissions</h2>
+                <p>Discover how to apply, tuition fees, scholarships, and financial aid options. Join our community of learners.</p>
+                <a href="https://www.griet.ac.in/admissions.php">griet</a>
+            </div>
+            <div class="section" id="contact">
+                <h2>Contact Us</h2>
+                <p>Have questions? Get in touch with us for more information or to schedule a campus tour.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Our College. All rights reserved.</p>
+    </footer>
+</body>
+</html>

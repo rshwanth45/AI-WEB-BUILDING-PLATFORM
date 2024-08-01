@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Hub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: #333;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    nav {
+      background: #444;
+      color: white;
+      padding: 0.5rem 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    .intro {
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    .section {
+      margin: 2rem 0;
+    }
+
+    .section h2 {
+      background: #333;
+      color: white;
+      margin: 0;
+      padding: 0.5rem;
+    }
+
+    .section-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .article,
+    .video,
+    .image,
+    .audio {
+      margin: 0.5rem;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      background: white;
+      width: 45%;
+    }
+
+    .article h3,
+    .video h3,
+    .image h3,
+    .audio h3 {
+      margin-top: 0;
+    }
+
+    .article p,
+    .video p,
+    .image p,
+    .audio p {
+      margin-bottom: 0;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        width: 100%;
+        padding: 0 1rem;
+      }
+
+      .article,
+      .video,
+      .image,
+      .audio {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Media Hub</h1>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#articles">Articles</a>
+    <a href="#videos">Videos</a>
+    <a href="#images">Images</a>
+    <a href="#audio">Audio</a>
+  </nav>
+  <div class="container">
+    <section id="home" class="intro">
+      <h2>Welcome to Media Hub</h2>
+      <p>Explore our collection of articles, videos, images, and audio content.</p>
+    </section>
+    <section id="articles" class="section">
+      <h2>Featured Articles</h2>
+      <div class="section-content">
+        <div class="article">
+          <h3>Article Title 1</h3>
+          <p>Description of the article.</p>
+        </div>
+        <div class="article">
+          <h3>Article Title 2</h3>
+          <p>Description of another article.</p>
+        </div>
+      </div>
+    </section>
+    <section id="videos" class="section">
+      <h2>Featured Videos</h2>
+      <div class="section-content">
+        <div class="video">
+          <h3>Video Title 1</h3>
+          <p>Description of the video.</p>
+        </div>
+        <div class="video">
+          <h3>Video Title 2</h3>
+          <p>Description of another video.</p>
+        </div>
+      </div>
+    </section>
+    <section id="images" class="section">
+      <h2>Featured Images</h2>
+      <div class="section-content">
+        <div class="image">
+          <h3>Image Title 1</h3>
+          <p>Description of the image.</p>
+        </div>
+        <div class="image">
+          <h3>Image Title 2</h3>
+          <p>Description of another image.</p>
+        </div>
+      </div>
+    </section>
+    <section id="audio" class="section">
+      <h2>Featured Audio</h2>
+      <div class="section-content">
+        <div class="audio">
+          <h3>Audio Title 1</h3>
+          <p>Description of the audio.</p>
+        </div>
+        <div class="audio">
+          <h3>Audio Title 2</h3>
+          <p>Description of another audio.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2024 Media Hub. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.top-panel {
+  background-color: hsl(225, 6%, 25%);
+}
+
+.panel {
+  height: 50vh;
+  display: flex;
+}
+
+.panel-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 0.5rem;
+  background-color: hsl(225, 6%, 25%);
+}
+
+.panel-container.collapsed {
+  flex-grow: 0;
+}
+
+.panel-container.collapsed .CodeMirror-scroll {
+  position: absolute;
+}
+
+.panel-title {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(225, 6%, 13%);
+  color: white;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.CodeMirror {
+  height: 100% !important;
+}
+
+.code-mirror-wrapper {
+  flex-grow: 1;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.expand-collape-button {
+  margin-left: 0.5rem;
+  background-color: hsl(225, 6%, 13%);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
